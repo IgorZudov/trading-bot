@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.Binance", "src\exchanges\CryptoTrader.Binance\CryptoTrader.Binance.csproj", "{763B5829-0951-4FBF-A208-84A1D574B9A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{88226BBF-C6B0-40B3-8E6B-C4E9ACB02D46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exchanges", "exchanges", "{7FB2900B-9C01-447A-8255-67148A04DA25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.Core.Tests", "test\CryptoTrader.Core.Tests\CryptoTrader.Core.Tests.csproj", "{8C52BD65-4C88-45D9-93F0-746D5E1831F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.Launcher", "src\CryptoTrader.Launcher\CryptoTrader.Launcher.csproj", "{2E5780BA-F94B-46C7-B691-1A2406CA966E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.Core", "src\CryptoTrader.Core\CryptoTrader.Core.csproj", "{34DBEC2C-E5AB-4C98-BE2C-7979A6086F4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.Fake", "src\exchanges\CryptoTrader.Fake\CryptoTrader.Fake.csproj", "{A3086EED-5433-4663-B818-CF1EDF79376D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.Bittrex", "src\exchanges\CryptoTrader.Bittrex\CryptoTrader.Bittrex.csproj", "{E9E75CB8-DDE5-4657-8BBF-AC8E9653F6C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoTrader.Utils", "src\CryptoTrader.Utils\CryptoTrader.Utils.csproj", "{4C2F95B8-8FA6-4F6E-8A65-432FFD9D61CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5BA9C22F-348F-4785-A0D7-52AFBE981F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTrader.Tinkoff", "src\exchanges\CryptoTrader.Tinkoff\CryptoTrader.Tinkoff.csproj", "{929AC3C0-3149-4810-9947-5EA941DB4E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTrader.Persist", "src\CryptoTrader.Persist\CryptoTrader.Persist.csproj", "{50F65A95-D67E-40CA-927D-E2B981D66762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTrader.IntegrationTests", "test\CryptoTrader.IntegrationTests\CryptoTrader.IntegrationTests.csproj", "{A52EA876-FBC9-495C-8330-C3E1FF04286F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DE1B532-C687-447C-99C1-7894EFFB3D3A}"
+ProjectSection(SolutionItems) = preProject
+	src\Directory.build.props = src\Directory.build.props
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI.Trader.Telegram", "src\DI.Trader.Telegram\DI.Trader.Telegram.csproj", "{CDDF08F4-A234-4111-A881-E8FB45B0FCF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{763B5829-0951-4FBF-A208-84A1D574B9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763B5829-0951-4FBF-A208-84A1D574B9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763B5829-0951-4FBF-A208-84A1D574B9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763B5829-0951-4FBF-A208-84A1D574B9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C52BD65-4C88-45D9-93F0-746D5E1831F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C52BD65-4C88-45D9-93F0-746D5E1831F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C52BD65-4C88-45D9-93F0-746D5E1831F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C52BD65-4C88-45D9-93F0-746D5E1831F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5780BA-F94B-46C7-B691-1A2406CA966E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5780BA-F94B-46C7-B691-1A2406CA966E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5780BA-F94B-46C7-B691-1A2406CA966E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5780BA-F94B-46C7-B691-1A2406CA966E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DBEC2C-E5AB-4C98-BE2C-7979A6086F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DBEC2C-E5AB-4C98-BE2C-7979A6086F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DBEC2C-E5AB-4C98-BE2C-7979A6086F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DBEC2C-E5AB-4C98-BE2C-7979A6086F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3086EED-5433-4663-B818-CF1EDF79376D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3086EED-5433-4663-B818-CF1EDF79376D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3086EED-5433-4663-B818-CF1EDF79376D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3086EED-5433-4663-B818-CF1EDF79376D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E75CB8-DDE5-4657-8BBF-AC8E9653F6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E75CB8-DDE5-4657-8BBF-AC8E9653F6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E75CB8-DDE5-4657-8BBF-AC8E9653F6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E75CB8-DDE5-4657-8BBF-AC8E9653F6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2F95B8-8FA6-4F6E-8A65-432FFD9D61CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2F95B8-8FA6-4F6E-8A65-432FFD9D61CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2F95B8-8FA6-4F6E-8A65-432FFD9D61CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2F95B8-8FA6-4F6E-8A65-432FFD9D61CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929AC3C0-3149-4810-9947-5EA941DB4E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929AC3C0-3149-4810-9947-5EA941DB4E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929AC3C0-3149-4810-9947-5EA941DB4E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929AC3C0-3149-4810-9947-5EA941DB4E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F65A95-D67E-40CA-927D-E2B981D66762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F65A95-D67E-40CA-927D-E2B981D66762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F65A95-D67E-40CA-927D-E2B981D66762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F65A95-D67E-40CA-927D-E2B981D66762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52EA876-FBC9-495C-8330-C3E1FF04286F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52EA876-FBC9-495C-8330-C3E1FF04286F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52EA876-FBC9-495C-8330-C3E1FF04286F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52EA876-FBC9-495C-8330-C3E1FF04286F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDF08F4-A234-4111-A881-E8FB45B0FCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDF08F4-A234-4111-A881-E8FB45B0FCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDF08F4-A234-4111-A881-E8FB45B0FCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDF08F4-A234-4111-A881-E8FB45B0FCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{763B5829-0951-4FBF-A208-84A1D574B9A7} = {7FB2900B-9C01-447A-8255-67148A04DA25}
+		{8C52BD65-4C88-45D9-93F0-746D5E1831F0} = {88226BBF-C6B0-40B3-8E6B-C4E9ACB02D46}
+		{A3086EED-5433-4663-B818-CF1EDF79376D} = {7FB2900B-9C01-447A-8255-67148A04DA25}
+		{E9E75CB8-DDE5-4657-8BBF-AC8E9653F6C8} = {7FB2900B-9C01-447A-8255-67148A04DA25}
+		{7FB2900B-9C01-447A-8255-67148A04DA25} = {5BA9C22F-348F-4785-A0D7-52AFBE981F36}
+		{34DBEC2C-E5AB-4C98-BE2C-7979A6086F4A} = {5BA9C22F-348F-4785-A0D7-52AFBE981F36}
+		{2E5780BA-F94B-46C7-B691-1A2406CA966E} = {5BA9C22F-348F-4785-A0D7-52AFBE981F36}
+		{4C2F95B8-8FA6-4F6E-8A65-432FFD9D61CC} = {5BA9C22F-348F-4785-A0D7-52AFBE981F36}
+		{929AC3C0-3149-4810-9947-5EA941DB4E5D} = {7FB2900B-9C01-447A-8255-67148A04DA25}
+		{50F65A95-D67E-40CA-927D-E2B981D66762} = {5BA9C22F-348F-4785-A0D7-52AFBE981F36}
+		{A52EA876-FBC9-495C-8330-C3E1FF04286F} = {88226BBF-C6B0-40B3-8E6B-C4E9ACB02D46}
+		{CDDF08F4-A234-4111-A881-E8FB45B0FCF8} = {5BA9C22F-348F-4785-A0D7-52AFBE981F36}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69761A2A-8D06-4950-9E66-4A61D60665E8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Bittrex.Net" Version="1.3.7" />
+    <PackageReference Include="Polly" Version="5.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CryptoTrader.Core\CryptoTrader.Core.csproj" />
+  </ItemGroup>
+</Project>

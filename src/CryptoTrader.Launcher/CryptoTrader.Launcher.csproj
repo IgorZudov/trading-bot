@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoTrader.Core\CryptoTrader.Core.csproj" />
+    <ProjectReference Include="..\CryptoTrader.Persist\CryptoTrader.Persist.csproj" />
+    <ProjectReference Include="..\DI.Trader.Telegram\DI.Trader.Telegram.csproj" />
+    <ProjectReference Include="..\exchanges\CryptoTrader.Binance\CryptoTrader.Binance.csproj" />
+    <ProjectReference Include="..\exchanges\CryptoTrader.Bittrex\CryptoTrader.Bittrex.csproj" />
+    <ProjectReference Include="..\exchanges\CryptoTrader.Tinkoff\CryptoTrader.Tinkoff.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CodeJam" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.2" />
+    <PackageReference Include="Scrutor" Version="3.2.1" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="3.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+  </ItemGroup>
+    <ItemGroup>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="secrets.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="config.conf">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+</Project>
